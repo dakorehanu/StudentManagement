@@ -1,0 +1,33 @@
+package com.FunctionalInterface;
+
+public interface Demo {
+
+//	void m1();
+	
+//	void sub(int m1,int m2);
+	
+	int add(int m1,int m2);
+	
+}
+package com.FunctionalInterface;
+
+public class DeoImpl  {
+
+	
+public static void main(String[] args) {
+	
+//	Demo demo=() -> System.out.println("Anonymes method");
+//		
+//	demo.m1();
+	
+//	Demo demo=( m1, m2)->System.out.println("sub:"+(m2-m1));
+//	demo.sub(50, 24);
+	
+	Demo demo=(m1,m2)->m2+m1;{
+		System.out.println("add = "+demo.add(80, 45));
+	}
+}
+
+	
+}
+
