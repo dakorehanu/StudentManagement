@@ -28,6 +28,7 @@ public class MapSort1 {
 		map.put("five", 5);
 		map.put("fifty", 50);
 		map.put("twenty", 20);
+        map.put("forty",40);
 		
 		List<Entry<String, Integer>> entries=new ArrayList<>(map.entrySet());
 		
