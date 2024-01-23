@@ -1,0 +1,29 @@
+package streamApi;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class DemoInterview {
+
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		List<Integer> list = Arrays.asList(10,15,8,7,9,3,2,4,43,20);
+//		list.stream().filter(e->e%2==0).forEach(e->System.out.println(e));
+//		System.out.println("Even numbers:");
+//		list.stream().filter(e->e%2==1).forEach(e->System.out.println(e));
+		List<Integer> list2 = list.stream().sorted().limit(2).toList();
+				System.out.println(list2);
+				
+				int[] a= {12,43,51,23,56,71,82};
+				
+		
+		
+	
+	}
+}
